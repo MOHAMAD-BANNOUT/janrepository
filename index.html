@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HAPPY BIRTHDAYY</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: url("images.png") fixed center;
+    }
+
+    .birthday-message {
+      font-family: 'Lobster', cursive;
+      font-size: 3em;
+      text-align: center;
+      background-color: #ECF0F1; /* Clouds color */
+      padding: 2em;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      color: #2C3E50; /* Midnight Blue text color */
+      position: relative;
+      overflow: hidden;
+      max-width: 80%; /* Adjust the maximum width for better readability on smaller screens */
+      margin: auto; /* Center the content */
+    }
+
+    .birthday-message:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      /* Replace 'confetti.png' with your confetti image */
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .birthday-message p {
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .button {
+      background-color: #000000; /* Blue button color */
+      color: #fff; /* White text color */
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #2980B9; /* Darker blue on hover */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="birthday-message">
+    <p>Happy Birthday BABAA</p>
+  </div>
+
+  <!-- Button Container -->
+  <div class="button-container">
+    <a href="test992.html" class="button">click here</a>
+  </div>
+</body>
+</html>
